@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+
+namespace trabajopeli
+{
+
+    class Pelicula
+    {
+        public string titulo;
+        public int año;
+        public string pais;
+        public string director;
+
+    }
+    class Program
+    {
+         static void Main(string[] args)
+        {
+            
+
+            Pelicula pelicula1=new Pelicula();
+            Pelicula pelicula2=new Pelicula();
+             pelicula1.titulo="El señor de los anillos";
+            pelicula1.año= 2003;
+            pelicula1.pais="USA";
+            pelicula1.director="Peter jackson";
+            Console.WriteLine("{0} en {1}", pelicula1.titulo, pelicula1.año);
+            pelicula2.titulo="Interstellar";
+            pelicula2.año= 2014;
+            pelicula2.pais="USA";
+            pelicula2.director="Christopher Nolan";
+
+            Console.WriteLine("{0} en {1}", pelicula2.titulo, pelicula2.año);
+        }
+    }
+}
