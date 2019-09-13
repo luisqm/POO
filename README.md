@@ -7,4 +7,4 @@ AGO-DIC 2019
 
 Prof. Mario Garcia
 
-https://github.com/luisqm/POO/blob/master/Programa%20peliculas%20v1
+Programa pelicula version 1 <https://github.com/luisqm/POO/blob/master/Programa%20peliculas%20v1>
