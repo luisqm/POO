@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+
+namespace trabajopeli
+{
+
+    class Pelicula
+    {
+        private string titulo;
+        private int año;
+       
+       public Pelicula()
+       {
+           titulo="Goodfellas";
+           año=1990;
+       }
+       public Pelicula(string t, int a)
+       {
+           titulo=t;
+           año=a;
+       }
+
+       public void imprime()
+       {
+           Console.WriteLine("{0} {1}", titulo, año);
+       }
+
+
+    }
+    class Program
+    {
+         static void Main(string[] args)
+        {
+            
+
+            Pelicula pelicula1=new Pelicula("El señor de los anillos",2003);
+            pelicula1.imprime();
+            
+            
+        }
+    }
+}
