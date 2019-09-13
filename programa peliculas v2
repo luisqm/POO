@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+
+namespace trabajopeli
+{
+
+    class Pelicula
+    {
+        private string titulo;
+        private int año;
+       
+
+        public void SetTitulo(string t)
+        {
+            titulo=t;
+        }
+        public String GetTitulo()
+        {
+            return titulo;
+        } 
+
+        public void SetAño(int a)
+        {
+            año=a;
+        }
+        public int GetAño()
+        {
+            return año;
+        }
+        
+
+    }
+    class Program
+    {
+         static void Main(string[] args)
+        {
+            
+
+            Pelicula pelicula1=new Pelicula();
+            
+            pelicula1.SetTitulo("El señor de los anillos");
+            pelicula1.SetAño(2002);
+
+            Console.WriteLine("{0} {1}", pelicula1.GetTitulo(), pelicula1.GetAño());
+        }
+    }
+}
