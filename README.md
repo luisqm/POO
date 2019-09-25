@@ -13,4 +13,4 @@ Programa pelicula version 2 https://github.com/luisqm/POO/blob/master/programa%2
 
 Programa pelicula version 3 https://github.com/luisqm/POO/blob/master/programa%20peliculas%20v3
 
-[link](/programas pelicula v2)
+[link](/https://github.com/luisqm/POO/blob/master/programa%20peliculas%20v3)
